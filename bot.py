@@ -4,9 +4,9 @@ import os
 import random
 from datetime import datetime
 
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+API_ID = int(os.environ.get("21567814"))
+API_HASH = os.environ.get("cd7dc5431d449fd795683c550d7bfb7e")
+BOT_TOKEN = os.environ.get("7548746598:AAGbd7Vyxw_EODmQsH83tTxW4fVd-xxJEOY")
 
 app = Client("livergram-bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
